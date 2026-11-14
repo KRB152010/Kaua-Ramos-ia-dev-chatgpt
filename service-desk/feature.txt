@@ -1,0 +1,6 @@
+Funcionalidades adicionadas ou ajustadas:
+
+- Busca de chamados pelo nome do solicitante, sem diferenciar maiúsculas de minúsculas.
+- Persistência das alterações do analista (status, prioridade, correção, data de atualização e eventos) após recarregar a página.
+- Limpeza real da base local, mantendo a lista vazia mesmo após recarregar.
+- Geração de um ID válido para o próximo chamado quando a lista está vazia.
