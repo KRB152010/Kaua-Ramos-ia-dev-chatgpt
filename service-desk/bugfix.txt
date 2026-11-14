@@ -1,0 +1,7 @@
+Erros corrigidos:
+
+- A busca do painel do analista não encontrava chamados pelo nome do solicitante, apesar de o campo indicar que essa busca era aceita.
+- As alterações de status, prioridade e correção não eram salvas no localStorage e desapareciam ao recarregar a página.
+- O botão "Limpar base local" restaurava os chamados de exemplo em vez de deixar a lista vazia. Além disso, criar um chamado após a limpeza podia gerar um ID inválido.
+
+Observação: o formulário já permitia abrir chamados; o problema encontrado relacionado ao solicitante era a busca, não o cadastro.
